@@ -1,0 +1,176 @@
+
+.profile-fields {
+	padding-bottom: 50px;
+}
+
+h4 {
+	font-size: 15px;
+}
+
+h4.instruction {
+	font-size: 17px;
+}
+
+.profile-section-title {
+	font-weight: 600;
+	font-size: 18px;
+}
+
+.name-profile-text {
+	width: 25em;
+}
+
+.age-profile-element {
+	width: 5em;
+}
+
+.profile-input {
+	margin-bottom: 10px;
+}
+
+.bio-profile-text {
+	width: 35em;
+}
+
+.information-text {
+	color: #777;
+}
+
+.cancel-upload-btn,
+.upload-profile-btn, 
+.select-profile-element {
+	width: 10em;
+}
+
+.date-profile-text {
+	width: 15em;
+}
+
+.password-fields {
+	display: none;
+}
+
+.password-profile-text {
+	margin-bottom: 13px;
+	width: 25em;
+}
+
+.actions a {
+	margin-right: 10px;
+	cursor: pointer;
+}
+
+.add-new {
+	width: 100px;
+    height: 35px;
+    color: #0073aa;
+    font-weight: 700;
+    position: absolute;
+    top: 11px;
+    left: 179px;
+}
+
+.upload-profile-button {
+	display: none;
+}
+
+.image-upload {
+	margin-bottom: 30px;
+	display: none;
+}
+
+.cancel-upload-btn,
+.upload-profile-btn {
+	display: inline-block;
+	margin-right: 15px;
+}	
+
+.cancel-upload-btn {
+	display: none;
+	margin-top: 0 !important;
+}
+
+input[type=password] {
+	margin-bottom: 0;
+}
+
+.password-group {
+	margin-bottom: 13px;
+}
+
+.error-message {
+	color: red;
+}
+
+.temp-hidden {
+	display: none;
+}
+
+/*Croppie Feature*/
+.upload-demo .upload-demo-wrap,
+.upload-demo .upload-result {
+    display: none;
+}
+
+.upload-demo.ready .upload-demo-wrap {
+    display: block;
+}
+
+.upload-demo.ready .upload-result {
+    display: inline-block;    
+}
+
+.upload-demo-wrap {
+    width: 300px;
+    height: 300px;
+}
+
+/*Individual Profile Page*/
+.profile-image {
+	height: 193px;
+	width: 193px;
+}
+
+.profile-name {
+	font-weight: 700;
+	margin-bottom: 15px;
+	margin-top: 5px;
+}
+
+.profile-position {
+	font-weight: 100;
+	font-size: 18px;
+}
+
+.label-text {
+	font-weight: bold;
+}
+
+.offset-bottom {
+	margin-top: 20px;
+}
+
+.offset-left {
+	margin-left: -30px;
+}
+
+@media screen and (max-width: 525px) {
+	.bio-profile-text {
+		width: 25em;
+	}
+
+	.add-new {
+		top: 6px;
+	}
+}
+
+@media screen and (max-width: 370px) {
+	.name-profile-text {
+		width: 20em;
+	}
+	
+	.bio-profile-text,
+	.password-profile-text {
+		width: 20em;
+	}
+}

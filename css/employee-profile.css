@@ -1,0 +1,75 @@
+button.btn.btn-primary.profile-buttons {
+	margin-right: 15px;
+}
+.modal-dialog{
+	margin-top: 5%;
+}
+/****** VIEW TASK MODAL ******/
+.task-table{
+	width: 100%;
+}
+.task-table td{
+	padding: 10px 0;
+}
+/****** LEAVE MESSAGE MODAL ******/
+.textarea-input{
+	width: 100%;
+	resize: none;
+	padding: 5px;
+}
+.send-button{
+		padding: 8px 40px;
+}
+.date-message{
+	float: right;
+}
+input.subject-input{
+	padding: 5px;
+	width: 100%;
+}
+/****** ASSIGN TASK MODAL ******/
+.main-button-links{
+	text-align: center;
+}
+.table-existing-projects{
+	display: none;
+}
+.assign-table{
+	width: 100%;
+}
+.assign-table td{
+	padding: 10px 0;
+}
+.assign-back{
+	display: none;
+	float: left;
+}
+.assign-cancel-text{
+	display: none;
+}
+.project-description{
+	padding: 0 10px;
+	display: none;
+}
+.assign-price{
+	padding: 5px 0;
+}
+.project-description > .form-group{
+	margin: 10px 0;
+}
+.selected-id{
+	font-size: 16px;
+	font-weight: bold;
+}
+#datepicker{
+	width: 100%;
+}
+.assign-textarea-input{
+	width: 100%;
+	resize: none;
+}
+.assign-button{
+	display: none;
+	position: absolute;
+	left: 45%;
+}
