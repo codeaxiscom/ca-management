@@ -1,0 +1,36 @@
+LOGIN FORM
+1. Redesign
+*index.php && style.css
+
+YOUR PROFILE
+1. Notification on success
+2. Too big image error
+*profile.php && employee.css
+
+ADD NEW EMPLOYEE
+1. Notification on success
+*
+
+ALL EMPLOYEES
+1. Remove feature
+2. Search
+
+INDIVIDUAL EMPLOYEES PAGE
+1. View Tasks
+	- Link MORE DETAILS
+2. Assign Task
+	- Implement backend functionality
+	- NEW PROJECTS TAB
+3. View Payroll
+	- Table showing existing projects and PAY button
+4. Leave Message
+	- Implement Backend Functionality 
+
+
+ALL ABOUT CODE AXIS
+1. Design with logo, slogan, and dummy text
+*about.php && about.css
+
+
+ANNOUNCEMENT
+*announcement.php && announcement.css
