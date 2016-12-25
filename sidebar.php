@@ -69,19 +69,7 @@
 				</li>
 				
 				<li><a href="announcement.php"><i class="fa fa-exclamation"></i> <span>Announcements</span></a></li>
-				
-				<li class="treeview">
-					<a href="#"><i class="fa fa-gear"></i> <span>Settings</span>
-						<span class="pull-right-container">
-							<i class="fa fa-angle-left pull-right"></i>
-						</span>
-					</a>
-					<ul class="treeview-menu">
-						<li><a href="#">General</a></li>
-						<li><a href="#">Link in level 2</a></li>
-					</ul>
-				</li>
-				
+
 				<li><a href="#"><i class="fa fa-group"></i> <span>All About CodeAxis</span></a></li>
 			<?php endif; ?>
 		</ul>

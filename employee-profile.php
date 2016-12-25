@@ -128,14 +128,14 @@
 						<div class="col-md-2">
 						</div>
 						<div class="col-md-10 offset-left">
-							<button type="button" class="btn btn-primary profile-buttons" data-toggle="modal" data-target="#view-tasks-modal">View Tasks</button>
+							<button type="button" class="btn btn-primary profile-buttons" data-toggle="modal" data-target="#view-tasks-modal">View Projects</button>
 							<!--------------- VIEW TASKS MODAL ---------------->
 							<div class="modal fade" id="view-tasks-modal" role="dialog">
 								<div class="modal-dialog">
 									<div class="modal-content">
 											<div class="modal-header">
 											<button type="button" class="close" data-dismiss="modal">&times;</button>
-											<h4 class="modal-title">Xavier David's Tasks</h4>
+											<h4 class="modal-title">Xavier David's Projects</h4>
 											</div>
 										<div class="modal-body">
 											<table class="table-striped task-table">
@@ -217,7 +217,7 @@
 									</div>
 								</div>
 							 </div>
-							<button class="btn btn-primary profile-buttons" data-toggle="modal" data-target="#assign-task-modal">Assign Task</button>
+							<button class="btn btn-primary profile-buttons" data-toggle="modal" data-target="#assign-task-modal">Assign Project</button>
 							<!--------------- ASSIGN TASK MODAL ---------------->
 							<div class="modal fade" id="assign-task-modal" role="dialog">
 								<div class="modal-dialog">
