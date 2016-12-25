@@ -4,6 +4,13 @@ button.btn.btn-primary.profile-buttons {
 .modal-dialog{
 	margin-top: 5%;
 }
+.profile-image {
+	width: 200px;
+	height: 200px;
+}
+.label-text {
+	font-weight: 700;
+}
 /****** VIEW TASK MODAL ******/
 .task-table{
 	width: 100%;
