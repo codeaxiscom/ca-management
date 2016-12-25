@@ -29,10 +29,6 @@
 	<body>
 		<div class="pen-title">
 			<img src="media/logo.png" />
-			<div class="pen-title-text">
-				<h1>CodeAxis</h1><br />
-				<span>Web Design & Development</span>
-			</div>
 		</div>
 		
 		<!-- Form Module-->
