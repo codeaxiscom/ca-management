@@ -68,7 +68,7 @@
 					</ul>
 				</li>
 				
-				<li><a href="#"><i class="fa fa-exclamation"></i> <span>Announcements</span></a></li>
+				<li><a href="announcement.php"><i class="fa fa-exclamation"></i> <span>Announcements</span></a></li>
 				
 				<li class="treeview">
 					<a href="#"><i class="fa fa-gear"></i> <span>Settings</span>
