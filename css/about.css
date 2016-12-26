@@ -1,0 +1,240 @@
+********************************************
+* GLOBAL RESET
+********************************************/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+body {
+	line-height: 1;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+blockquote, q {
+	quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*****************************
+****	STYLING STARTS *******
+*****************************/
+
+	body {
+		background-color:#ecf0f5;
+
+	}
+
+	.head-image {
+		position: absolute;
+		z-index: 9;
+		height:200px;
+		width:200px;
+		margin-left:430px;
+		margin-top:300px;
+	}
+	.about {
+		height:400px;
+		width:50%;
+		background-color:#ecf0f5;
+		border: 3px solid #007ba6;
+		color:#fff;
+		font-family: 'Roboto Condensed', sans-serif;
+	}
+
+	.about:hover {
+		background-color:#222d32;
+	}
+
+
+	.titles {
+		margin-top:150px;
+		font-size:60px;
+		text-align: center;
+		font-weight: bold;
+		color:#2a2a2a;
+		font-family: 'Roboto Condensed', sans-serif;
+	}
+
+
+	.last-title {
+		margin-bottom:30px;
+	}
+
+	.description {
+		font-size:20px;
+		display: none;
+		text-align: justify;
+		margin-top:50px;
+		font-family: 'Roboto Condensed', sans-serif;
+	}
+
+	.hovertitle {
+		text-align: center;
+		font-weight: bold;
+		display:none;
+		font-family: 'Roboto Condensed', sans-serif;
+	}
+
+	.head-image2{
+		display:none;
+	}
+
+/*****************************
+****    MEDIA QUERIES  *******
+*****************************/
+
+@media (max-width: 1280px) {
+
+	.head-image {
+		margin-left: 400px;
+		height:180px;
+		width:180px;
+	}
+	.description {
+    	font-size: 18px;
+	}
+	.head-image2{
+		display:none;
+	}
+}
+
+@media (max-width: 1024px) {
+    .head-image {
+    	margin-left:290px;
+    	height:160px;
+		width:160px;
+    }
+
+    .description {
+    	font-size: 16px;
+    }
+
+    .hovertitle {
+    	font-size: 32px;
+    }
+    .head-image2{
+		display:none;
+	}
+}
+
+@media (max-width: 768px) {
+	.head-image {
+    	margin-left: 180px;
+    	height: 120px;
+    	margin-top: 330px;
+    	width: 120px;
+	}
+
+	.titles {
+		font-size:50px;
+	}
+
+	.description {
+		font-size:13px;
+	}
+	.head-image2{
+		display:none;
+	}
+}
+
+@media (max-width: 768px) {
+	.about {
+    	height: 350px;
+    	width: 100%;
+	}
+
+	.titles {
+		margin-top:130px;
+	}
+	.head-image2{
+		display:none;
+	}
+}
+
+@media (max-width: 768px){
+	.head-image {
+    	display:none;
+  	}
+  	.head-image2 {
+  		display:block !important;
+  		width: 106.5%;
+    	margin-left: -15px;
+  	}
+
+  	.description {
+    	font-size: 17px;
+	}
+
+}
+
+@media (max-width: 414px){
+
+	.head-image2 {
+		width: 108.5%;
+	}
+
+	.description {
+    	font-size: 14px;
+	}
+
+}
+
+@media (max-width: 375px){
+
+	.head-image2 {
+    	width: 109.5%;
+	}
+
+}
+
+@media (max-width: 320px){
+
+	.head-image2 {
+    	width: 111.5%;
+	}
+
+	.titles {
+    	font-size: 40px;
+	}
+
+	.description {
+    	font-size: 12px;
+	}
+	
+}
