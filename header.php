@@ -54,7 +54,7 @@
 									while($result = $results->fetch_assoc()) {
 										if(strlen($result['message']) > 29)
 											$result['message'] = substr($result['message'],0,29) . '...'; 
-										$diff = date()-$result['date'];
+										//$diff = date()-$result['date'];
 										echo '<li>';
 											echo '<a href="#">';
 												echo '<div class="pull-left">';
@@ -63,7 +63,7 @@
 
 												echo '<h4>';
 													echo $result['nickname'];
-													echo '<small><i class="fa fa-clock-o"></i> '. $diff .'</small>';
+													echo '<small><i class="fa fa-clock-o"></i> '. 'here' .'</small>';
 												echo '</h4>';
 
 												echo '<p>' . $result['message'] . '</p>';
