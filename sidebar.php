@@ -58,7 +58,7 @@
 				
 				<li><a href="announcement.php"><i class="fa fa-exclamation"></i> <span>Announcements</span></a></li>
 
-				<li><a href="#"><i class="fa fa-group"></i> <span>All About CodeAxis</span></a></li>
+				<li><a href="about.php"><i class="fa fa-group"></i> <span>All About CodeAxis</span></a></li>
 			<?php endif; ?>
 		</ul>
 		<!-- /.sidebar-menu -->
