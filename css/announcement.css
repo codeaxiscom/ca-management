@@ -1,0 +1,51 @@
+@font-face{
+	font-family: Myriad;
+	src: url("fonts/Myriad-Pro_31655.ttf");
+}
+blockquote{
+	background: transparent;
+	border: 1px solid #bbb;
+	border-left: 10px solid #bbb;
+	padding: 0.5em 10px;
+	quotes: "\201C""\201D""\2018""\2019";
+	font-size: 14px;
+	line-height: 20px;
+	text-align: justify;
+}
+blockquote::before{
+	content: open-quote;
+	font-size: 24px;
+	color: #000;
+	font-family: Myriad;
+}
+blockquote::after{
+	content: close-quote;
+	font-size: 24px;
+	color: #000;
+	font-family: Myriad;
+}
+
+.announcement-row{
+	width: 100%;
+	background-color: #fff;
+	padding: 10px 0;
+}
+.composer-image{
+	float: left;
+}
+.announcement-heading {
+	width: 100%;
+	display: inline-block;
+}
+.composer-name{
+	display: inline;
+	float: left;
+	margin: 10px;
+}
+.time-composed{
+	display: inline;
+	float: right;
+}
+.announcement-content{
+	float: left;
+}
