@@ -4,7 +4,7 @@ LOGIN FORM
 
 YOUR PROFILE
 1. Notification on success
-2. Too big image error
+2. Too big image error - DONE
 *profile.php && employee.css
 
 ADD NEW EMPLOYEE
@@ -12,7 +12,7 @@ ADD NEW EMPLOYEE
 *
 
 ALL EMPLOYEES
-1. Remove feature
+1. Remove feature - DONE
 2. Search
 
 INDIVIDUAL EMPLOYEES PAGE

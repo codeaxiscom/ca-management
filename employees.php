@@ -4,6 +4,18 @@
 	if(!isset($_SESSION['is_logged_in'])) {
 		header("Location: index.php");
 	}
+
+	if(isset($_GET['username'])) {
+		global $connection;
+		$username = $_GET['username'];
+
+		$sql = "DELETE FROM user WHERE username='$username'";
+		$success = false;
+
+		if($connection->query($sql)) {
+			$sucess = true;
+		}
+	}
 ?>
 
 <!DOCTYPE html>
@@ -98,7 +110,7 @@
 										echo '<td>' . $result['position'] . '</td>';
 										echo '<td>' . $result['usertype'] . '</td>';
 										echo '<td class="actions"><a href="employee-profile.php?username=' . $result['username'] . '">View</a>
-													<a href="#">Remove</a></td>';
+													<a href="employees.php?username='. $result['username'] .'">Remove</a></td>';
 									echo '</tr>';
 								}
 							?>

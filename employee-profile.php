@@ -88,12 +88,12 @@
 				<!-- Main content -->
 				<section class="content">
 					<div class="row offset-bottom">
-						<div class="col-md-3">
+						<div class="col-md-2">
 							<p class="profile-image">
 								<img class="profile-image" src="<?php echo $profilepicture; ?>" />
 							</p>
 						</div>
-						<div class="col-md-9 offset-left">
+						<div class="col-md-10 offset-left">
 							<h3 class="profile-name"><?php echo $firstname . ' ' . $lastname; ?><span class="profile-position"> (<?php echo $position; ?>)</span></h3>
 							<div class="row">
 								<div class="col-md-4">
@@ -125,9 +125,9 @@
 						</div>
 					</div>
 					<div class="row">
-						<div class="col-md-3">
+						<div class="col-md-2">
 						</div>
-						<div class="col-md-9 offset-left">
+						<div class="col-md-10 offset-left">
 							<button type="button" class="btn btn-primary profile-buttons" data-toggle="modal" data-target="#view-tasks-modal">View Tasks</button>
 							<!--------------- VIEW TASKS MODAL ---------------->
 							<div class="modal fade" id="view-tasks-modal" role="dialog">
@@ -328,7 +328,7 @@
 											<h4 class="modal-title">New Message</h4>
 										</div>
 										<div class="modal-body">
-											<p class="profile-name">To: Xavier David A. Maranga<span class="date-message">Date: December 23, 2016</span></p><hr/>
+											<p class="profile-name">To: <?php echo $firstname . ' ' . $lastname;?><span class="date-message">Date: <?php echo date('F d, Y'); ?></span></p><hr/>
 											<input type="text" class="subject-input" placeholder="Subject"><hr/>
 											<textarea rows="10" class="textarea-input" placeholder="Your Message"></textarea>
 										</div>
