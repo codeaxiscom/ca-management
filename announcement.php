@@ -1,5 +1,5 @@
 <?php
-	session_start();
+	include('config.php');
 	
 	if(!isset($_SESSION['is_logged_in'])) {
 		header("Location: index.php");
@@ -60,28 +60,88 @@
 				<section class="content">
 
 					<!-- Your Page Content Here -->
-					<div class="container-fluid">
-						<div class="row announcement-row">
-							<div class="col-md-2">
-								<img src="media/profile-pictures/jude.png" width="150px" height="150px" class="img-rounded composer-image">
-							</div>
-							<div class="col-md-10">
-								<div class="announcement-content">
-									<div class="announcement-heading">
-										<h3 class="composer-name">Jemar Jude A. Maranga</h3>
-										<h4 class="time-composed">2h ago</h4>
-									</div>
-									<blockquote>
-										DAVID GWAPO DAVID GWAPO DAVID GWAPO DAVID GWAPO DAVID GWAPODAVID 
-										DAVID GWAPO DAVID GWAPO DAVID GWAPO DAVID GWAPO DAVID GWAPODAVID GWAPO
-										DAVID GWAPO DAVID GWAPO DAVID GWAPO DAVID GWAPO DAVID GWAPODAVID GWAPO
-										DAVID GWAPO DAVID GWAPO DAVID GWAPO DAVID GWAPO DAVID GWAPODAVID 
-										DAVID GWAPO DAVID GWAPO DAVID GWAPO DAVID GWAPO DAVID GWAPODAVID GWAPO
-										DAVID GWAPO DAVID GWAPO DAVID GWAPO DAVID GWAPO DAVID GWAPODAVID GWAPODAVIDDAVID GWAPO DAVID GWAPO DAVID GWAPO DAVID GWAPO DAVID GWAPODAVID 
-										DAVID GWAPO DAVID GWAPO DAVID GWAPO DAVID GWAPO DAVID GWAPODAVID GWAPO
-										DAVID GWAPO DAVID GWAPO DAVID GWAPO DAVID GWAPO DAVID GWAPODAVID GWAPO
-									</blockquote>
+					<div class="container announcement-container">
+						<div class="row">
+							<div class="col-md-8 announcement-heading">
+								<img src="media/profile-pictures/jude.png" class="img-responsive announcement-image">
+								<div class="heading-text">
+									<h4>Jemar Jude A. Maranga</h4>
+									<h5>2 hours ago</h5>
 								</div>
+							</div>
+							<div class="col-md-4 edit-button">
+								<button type="button" class="btn btn-primary">Edit Announcement</button>
+							</div>
+						</div><hr/>
+						<div class="row">
+							<div class="col-md-12">
+								<p>Lorem ipsum dolor sit amit Lorem ipsum dolor sit amit Lorem ipsum dolor sit amit Lorem ipsum dolor sit amit
+								Lorem ipsum dolor sit amit Lorem ipsum dolor sit amit Lorem ipsum dolor sit amit Lorem ipsum dolor sit amit
+								Lorem ipsum dolor sit amit Lorem ipsum dolor sit amit Lorem ipsum dolor sit amit Lorem ipsum dolor sit amit
+								Lorem ipsum dolor sit amit Lorem ipsum dolor sit amit Lorem ipsum dolor sit amit Lorem ipsum dolor sit amit</p>
+							</div>
+						</div><hr/>
+						<div class="row">
+							<div class="col-md-12 announcement-footer">
+								<button type="button" class="btn btn-primary read-button">Read</button>
+								<a href="#" data-toggle="tooltip" data-html="true" data-placement="bottom" title="Xavier <br/> David <br/> Jude <br/> Chris" class="read-tag">2 Read</a>
+							</div>
+						</div>
+					</div>
+					<div class="container announcement-container">
+						<div class="row">
+							<div class="col-md-8 announcement-heading">
+								<img src="media/profile-pictures/jude.png" class="img-responsive announcement-image">
+								<div class="heading-text">
+									<h4>Jemar Jude A. Maranga</h4>
+									<h5>2 hours ago</h5>
+								</div>
+							</div>
+							<div class="col-md-4 edit-button">
+								<button type="button" class="btn btn-primary">Edit Announcement</button>
+							</div>
+						</div><hr/>
+						<div class="row">
+							<div class="col-md-12">
+								<p>Lorem ipsum dolor sit amit Lorem ipsum dolor sit amit Lorem ipsum dolor sit amit Lorem ipsum dolor sit amit
+								Lorem ipsum dolor sit amit Lorem ipsum dolor sit amit Lorem ipsum dolor sit amit Lorem ipsum dolor sit amit
+								Lorem ipsum dolor sit amit Lorem ipsum dolor sit amit Lorem ipsum dolor sit amit Lorem ipsum dolor sit amit
+								Lorem ipsum dolor sit amit Lorem ipsum dolor sit amit Lorem ipsum dolor sit amit Lorem ipsum dolor sit amit</p>
+							</div>
+						</div><hr/>
+						<div class="row">
+							<div class="col-md-12 announcement-footer">
+								<button type="button" class="btn btn-primary read-button">Read</button>
+								<a href="#" data-toggle="tooltip" data-html="true" data-placement="bottom" title="Xavier <br/> David <br/> Jude <br/> Chris" class="read-tag">2 Read</a>
+							</div>
+						</div>
+					</div>
+					
+					<div class="container announcement-container">
+						<div class="row">
+							<div class="col-md-8 announcement-heading">
+								<img src="media/profile-pictures/jude.png" class="img-responsive announcement-image">
+								<div class="heading-text">
+									<h4>Jemar Jude A. Maranga</h4>
+									<h5>2 hours ago</h5>
+								</div>
+							</div>
+							<div class="col-md-4 edit-button">
+								<button type="button" class="btn btn-primary">Edit Announcement</button>
+							</div>
+						</div><hr/>
+						<div class="row">
+							<div class="col-md-12">
+								<p>Lorem ipsum dolor sit amit Lorem ipsum dolor sit amit Lorem ipsum dolor sit amit Lorem ipsum dolor sit amit
+								Lorem ipsum dolor sit amit Lorem ipsum dolor sit amit Lorem ipsum dolor sit amit Lorem ipsum dolor sit amit
+								Lorem ipsum dolor sit amit Lorem ipsum dolor sit amit Lorem ipsum dolor sit amit Lorem ipsum dolor sit amit
+								Lorem ipsum dolor sit amit Lorem ipsum dolor sit amit Lorem ipsum dolor sit amit Lorem ipsum dolor sit amit</p>
+							</div>
+						</div><hr/>
+						<div class="row">
+							<div class="col-md-12 announcement-footer">
+								<button type="button" class="btn btn-primary read-button">Read</button>
+								<a href="#" data-toggle="tooltip" data-html="true" data-placement="bottom" title="Xavier <br/> David <br/> Jude <br/> Chris" class="read-tag">2 Read</a>
 							</div>
 						</div>
 					</div>
@@ -107,5 +167,10 @@
 			 Both of these plugins are recommended to enhance the
 			 user experience. Slimscroll is required when using the
 			 fixed layout. -->
+		<script>
+			$(document).ready(function(){
+				$('[data-toggle="tooltip"]').tooltip();   
+			});
+		</script>
 	</body>
 </html>
