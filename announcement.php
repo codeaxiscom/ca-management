@@ -48,7 +48,7 @@
 				<section class="content-header">
 					<h1>
 						Announcements
-						<button type="button" class="btn btn-primary">New Announcement</button>
+						<button type="button" class="btn btn-primary new-announcement">New Announcement</button>
 					</h1>
 					<ol class="breadcrumb">
 						<li><a href="main.php"><i class="fa fa-dashboard"></i> Home</a></li>

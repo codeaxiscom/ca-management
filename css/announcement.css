@@ -2,6 +2,9 @@
 	font-family: Myriad;
 	src: url("fonts/Myriad-Pro_31655.ttf");
 }
+.new-announcement{
+	margin-left: 10px;
+}
 .announcement-container{
 	width: 50%;
 	margin-top: 20px;
