@@ -48,7 +48,7 @@
 				<section class="content-header">
 					<h1>
 						Announcements
-						<small>Control Panel</small>
+						<button type="button" class="btn btn-primary">New Announcement</button>
 					</h1>
 					<ol class="breadcrumb">
 						<li><a href="main.php"><i class="fa fa-dashboard"></i> Home</a></li>
@@ -61,9 +61,27 @@
 
 					<!-- Your Page Content Here -->
 					<div class="container-fluid">
-						<div class="row">
-							<div class="col-md-12">
-								<h1>asdsad</h1>
+						<div class="row announcement-row">
+							<div class="col-md-2">
+								<img src="media/profile-pictures/jude.png" width="150px" height="150px" class="img-rounded composer-image">
+							</div>
+							<div class="col-md-10">
+								<div class="announcement-content">
+									<div class="announcement-heading">
+										<h3 class="composer-name">Jemar Jude A. Maranga</h3>
+										<h4 class="time-composed">2h ago</h4>
+									</div>
+									<blockquote>
+										DAVID GWAPO DAVID GWAPO DAVID GWAPO DAVID GWAPO DAVID GWAPODAVID 
+										DAVID GWAPO DAVID GWAPO DAVID GWAPO DAVID GWAPO DAVID GWAPODAVID GWAPO
+										DAVID GWAPO DAVID GWAPO DAVID GWAPO DAVID GWAPO DAVID GWAPODAVID GWAPO
+										DAVID GWAPO DAVID GWAPO DAVID GWAPO DAVID GWAPO DAVID GWAPODAVID 
+										DAVID GWAPO DAVID GWAPO DAVID GWAPO DAVID GWAPO DAVID GWAPODAVID GWAPO
+										DAVID GWAPO DAVID GWAPO DAVID GWAPO DAVID GWAPO DAVID GWAPODAVID GWAPODAVIDDAVID GWAPO DAVID GWAPO DAVID GWAPO DAVID GWAPO DAVID GWAPODAVID 
+										DAVID GWAPO DAVID GWAPO DAVID GWAPO DAVID GWAPO DAVID GWAPODAVID GWAPO
+										DAVID GWAPO DAVID GWAPO DAVID GWAPO DAVID GWAPO DAVID GWAPODAVID GWAPO
+									</blockquote>
+								</div>
 							</div>
 						</div>
 					</div>
