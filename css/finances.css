@@ -1,0 +1,140 @@
+.main-finances{
+	padding: 10px;
+	border: 1px solid #000;
+	background-color: #fff;
+}
+.main-table{
+	width: 100%;
+	border: 1px solid #000;
+}
+.first-table{
+	width: 100%;
+}
+.first-table .first-row > .first-heading-text{
+	padding: 5px;
+}
+.first-table .first-row > td:nth-child(1){
+	float: left;
+	padding: 10px 20px;
+}
+.first-table .first-row > td:nth-child(2){
+	float: right;
+	padding: 10px 20px;
+}
+.second-table{
+	width: 100%;
+	margin-bottom: 10px;
+}
+.second-table .second-row > td{
+	width: 25%;
+	padding: 10px 20px;
+}
+.second-table .second-row td > h4{
+	text-decoration: underline;
+}
+.second-table .third-row > td{
+	width: 25%;
+	padding: 0px 20px;
+}
+.second-table .fourth-row > td{
+	width: 25%;
+	padding: 0px 20px;
+}
+.question{
+	width: 15%;
+}
+.value{
+	float: right;
+	margin-right: 50%;
+	width: 10%;
+}
+.bold-text{
+	font-weight: 700;
+	width: 15%;
+}
+.second-table .fifth-row > td{
+	width: 25%;
+	padding: 0px 20px;
+}
+.second-table .sixth-row > td{
+	width: 25%;
+	padding: 0px 20px;
+}
+.second-value{
+	margin-right: 50%;
+	width: 10%;
+	float: right;
+}
+
+
+
+.second-main-table{
+	width: 50%;
+	border: 1px solid #000;
+	margin-top: 20px;
+	float: left;
+}
+.second-main-table .payments-heading > td:nth-child(1){
+	float: left;
+	padding: 10px 20px;
+}
+.second-main-table .payments-heading > td:nth-child(2){
+	float: right;
+	padding: 10px 20px;
+}
+.form-control{
+	width: 100%;
+	background-color: transparent;
+	border-color: #000;
+}
+
+.payments-table{
+	border: 1px solid #000;
+	width: 95%;
+	margin: 0 auto;
+	margin-bottom: 10px;
+}
+.payments-table tr > td{
+	padding: 10px 20px;
+	border: 1px solid #000;
+	width: 25%;
+	text-align: center;
+}
+
+
+.third-main-table{
+	width: 50%;
+	border: 1px solid #000;
+	margin-top: 20px;
+}
+.third-main-table .netprofit-heading > td:nth-child(1){
+	float: left;
+	padding: 10px 20px;
+}
+.third-main-table .netprofit-heading > td:nth-child(2){
+	float: right;
+	padding: 10px 20px;
+}
+.netprofit-table{
+	border: 1px solid #000;
+	width: 95%;
+	margin: 0 auto;
+	margin-bottom: 10px;
+}
+.netprofit-table tr > td{
+	padding: 10px 20px;
+	border: 1px solid #000;
+	width: 50%;
+	text-align: center;
+}
+
+.first-export-button{
+	width: 50%;
+	display: inline-block;
+	margin-top: 20px;
+}
+.second-export-button{
+	width: 49%;
+	display: inline-block;
+	margin-top: 20px;
+}
