@@ -16,18 +16,6 @@
 			</div>
 		</div>
 
-		<!-- search form (Optional) -->
-		<form action="#" method="get" class="sidebar-form">
-			<div class="input-group">
-				<input type="text" name="q" class="form-control" placeholder="Search...">
-				<span class="input-group-btn">
-					<button type="submit" name="search" id="search-btn" class="btn btn-flat"><i class="fa fa-search"></i>
-					</button>
-				</span>
-			</div>
-		</form>
-		<!-- /.search form -->
-
 		<?php
 			$pa = basename($_SERVER['PHP_SELF']);
 		?>
@@ -38,7 +26,7 @@
 			<?php if($_SESSION['usertype'] == 'A'): ?>
 				<li <?php if($pa == "main.php") echo "class='active'"; ?>><a href="main.php"><i class="fa fa-dashboard"></i> <span>Dashboard</span></a></li>
 				<li><a href="projects.php"><i class="fa fa-folder-open"></i> <span>Projects</span></a></li>
-				<li><a href="inventory.php"><i class="fa fa-wrench"></i> <span>Inventory</span></a></li>
+				<!--<li><a href="inventory.php"><i class="fa fa-wrench"></i> <span>Inventory</span></a></li>-->
 				<li><a href="finances.php"><i class="fa fa-money"></i> <span>Finances</span></a></li>
 				
 				<?php

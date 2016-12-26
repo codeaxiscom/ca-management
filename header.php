@@ -38,11 +38,11 @@
 					<ul class="dropdown-menu">
 						<?php
 							if($countMessageNotViewed == 0) {
-								$message = "You don't have any messages.";
+								$message = "You don't have any unviewed messages.";
 							} else if($countMessageNotViewed == 1) {
-								$message = "You have $countMessageNotViewed message.";
+								$message = "You have $countMessageNotViewed unviewed message.";
 							} else {
-								$message = "You have $countMessageNotViewed messages.";
+								$message = "You have $countMessageNotViewed unviewed messages.";
 							}
 						?>
 						<li class="header"><?php echo $message; ?></li>
@@ -54,7 +54,6 @@
 									while($result = $results->fetch_assoc()) {
 										if(strlen($result['message']) > 29)
 											$result['message'] = substr($result['message'],0,29) . '...'; 
-										//$diff = date()-$result['date'];
 										echo '<li>';
 											echo '<a href="#">';
 												echo '<div class="pull-left">';
@@ -63,7 +62,7 @@
 
 												echo '<h4>';
 													echo $result['nickname'];
-													echo '<small><i class="fa fa-clock-o"></i> '. 'here' .'</small>';
+													echo '<small><i class="fa fa-clock-o"></i> '. $result['date'] .'</small>';
 												echo '</h4>';
 
 												echo '<p>' . $result['message'] . '</p>';
@@ -114,7 +113,7 @@
 						<span class="label label-danger">9</span>
 					</a>
 					<ul class="dropdown-menu">
-						<li class="header">You have 9 tasks</li>
+						<li class="header">You have 9 projects</li>
 						<li>
 							<!-- Inner menu: contains the tasks -->
 							<ul class="menu">
