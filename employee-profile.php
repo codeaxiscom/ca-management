@@ -8,13 +8,13 @@
 	$username = $_GET['username'];
 
 	global $connection;
-	$sql = "SELECT username, usertype, firstname, lastname, nickname, position, gender, age, 
+	$sql = "SELECT userID, username, usertype, firstname, lastname, nickname, position, gender, age, 
 				email, phonenumber, telephonenumber, biographicalinfo, membershipdate, 
 				profilepicture FROM USER WHERE username = '$username'";
 	$results = $connection->query($sql);
 	$result = $results->fetch_assoc();
 
-
+	$userID = $result['userID'];
 	$usertype = $result['usertype'];
 	$firstname = $result['firstname'];
 	$lastname = $result['lastname'];
@@ -32,6 +32,15 @@
 		$profilepicture = $result['profilepicture'];
 	else
 		$profilepicture = 'media/profile-pictures/no-image.png';
+
+	if(isset($_POST['sendMessageBtn'])) {
+		$subject = $_POST['subject'];
+		$message = $_POST['message'];
+		$senderID = $_SESSION['userID'];
+
+		$sql = "INSERT INTO message(UserID, SenderID, Subject, Message) VALUES ($userID, $senderID, '$subject', '$message')";
+		$connection->query($sql);
+	}
 ?>
 
 <!DOCTYPE html>
@@ -84,7 +93,6 @@
 						<li class="active"><?php echo $firstname . ' ' . $lastname; ?></li>
 					</ol>
 				</section>
-
 				<!-- Main content -->
 				<section class="content">
 					<div class="row offset-bottom">
@@ -329,11 +337,14 @@
 										</div>
 										<div class="modal-body">
 											<p class="profile-name">To: <?php echo $firstname . ' ' . $lastname;?><span class="date-message">Date: <?php echo date('F d, Y'); ?></span></p><hr/>
-											<input type="text" class="subject-input" placeholder="Subject"><hr/>
-											<textarea rows="10" class="textarea-input" placeholder="Your Message"></textarea>
+											<form action="" method="POST">
+												<input type="text" class="subject-input" name="subject" placeholder="Subject">
+												<textarea rows="10" class="textarea-input" name="message" placeholder="Your Message"></textarea>											
+											<div style="background-color:green; height: 25px; width: 100%;"/>
 										</div>
 										<div class="modal-footer">
-											<button type="button" class="btn btn-primary send-button">Send</button>
+											<input type="submit" class="btn btn-primary send-button" name="sendMessageBtn" value="Send"/>
+											</form>
 										</div>
 									</div>
 								</div>

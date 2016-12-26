@@ -19,38 +19,59 @@
 		<!-- Navbar Right Menu -->
 		<div class="navbar-custom-menu">
 			<ul class="nav navbar-nav">
+				<?php
+					$userID = $_SESSION['userID'];
+					$sql = "SELECT COUNT(*) AS count FROM message WHERE UserID=$userID AND viewed=0";
+					$result = $connection->query($sql);
+					$countMessageNotViewed = $result->fetch_assoc()['count'];
+					
+					$sql = "SELECT message,date,nickname,profilepicture FROM message LEFT JOIN user ON message.senderID=user.userID WHERE message.userID=$userID ORDER BY date DESC LIMIT 5";
+					$results = $connection->query($sql);
+				?>
 				<!-- Messages: style can be found in dropdown.less-->
 				<li class="dropdown messages-menu">
 					<!-- Menu toggle button -->
 					<a href="#" class="dropdown-toggle" data-toggle="dropdown">
 						<i class="fa fa-envelope-o"></i>
-						<span class="label label-success">4</span>
+						<span class="label label-success"><?php if($countMessageNotViewed > 0) echo $countMessageNotViewed; ?></span>
 					</a>
 					<ul class="dropdown-menu">
-						<li class="header">You have 4 messages</li>
+						<?php
+							if($countMessageNotViewed == 0) {
+								$message = "You don't have any messages.";
+							} else if($countMessageNotViewed == 1) {
+								$message = "You have $countMessageNotViewed message.";
+							} else {
+								$message = "You have $countMessageNotViewed messages.";
+							}
+						?>
+						<li class="header"><?php echo $message; ?></li>
 						<li>
 							<!-- inner menu: contains the messages -->
 							<ul class="menu">
-								<li>
-									<!-- start message -->
-									<a href="#">
-										<div class="pull-left">
-											<!-- User Image -->
-											<img src="includes/dist/img/user2-160x160.jpg" class="img-circle" alt="User Image">
-										</div>
-										
-										<!-- Message title and timestamp -->
-										<h4>
-											Support Team
-											<small><i class="fa fa-clock-o"></i> 5 mins</small>
-										</h4>
-										
-										<!-- The message -->
-										<p>Why not buy a new awesome theme?</p>
-									</a>
-								</li>
-								
-							<!-- end message -->
+								<?php
+									/* Start Messages */
+									while($result = $results->fetch_assoc()) {
+										if(strlen($result['message']) > 29)
+											$result['message'] = substr($result['message'],0,29) . '...'; 
+										$diff = date()-$result['date'];
+										echo '<li>';
+											echo '<a href="#">';
+												echo '<div class="pull-left">';
+													echo '<img src="'.$result['profilepicture'].'" class="img-circle" alt="User Image">';
+												echo '</div>';
+
+												echo '<h4>';
+													echo $result['nickname'];
+													echo '<small><i class="fa fa-clock-o"></i> '. $diff .'</small>';
+												echo '</h4>';
+
+												echo '<p>' . $result['message'] . '</p>';
+											echo '</a>';
+										echo '</li>';
+									}
+									/* End Messages */
+								?>
 							</ul>
 							<!-- /.menu -->
 						</li>

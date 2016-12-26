@@ -33,6 +33,7 @@ button.btn.btn-primary.profile-buttons {
 input.subject-input{
 	padding: 5px;
 	width: 100%;
+	margin-bottom: 12px;
 }
 /****** ASSIGN TASK MODAL ******/
 .main-button-links{

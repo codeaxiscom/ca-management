@@ -23,12 +23,13 @@
 	
 	function setUserDetails($username) {
 		global $connection;
-		$sql = "SELECT username, usertype, firstname, lastname, nickname, position, gender, age, 
+		$sql = "SELECT userID, username, usertype, firstname, lastname, nickname, position, gender, age, 
 					email, phonenumber, telephonenumber, biographicalinfo, membershipdate, 
 					profilepicture FROM USER WHERE username = '$username'";
 		$results = $connection->query($sql);
 		$result = $results->fetch_assoc();
 
+		$_SESSION['userID'] = $result['userID'];
 		$_SESSION['username'] = $result['username'];
 		$_SESSION['usertype'] = $result['usertype'];
 		$_SESSION['first_name'] = $result['firstname'];
