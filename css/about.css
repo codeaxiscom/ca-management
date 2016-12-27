@@ -65,7 +65,7 @@ table {
 		z-index: 9;
 		height:200px;
 		width:200px;
-		margin-left:430px;
+		margin-left:500px;
 		margin-top:300px;
 	}
 	.about {
@@ -115,14 +115,100 @@ table {
 		display:none;
 	}
 
+	.clicktosee {
+		color:#2a2a2a;
+		opacity:0.5;
+		text-align: center;
+		display: none;
+		}
+
+
 /*****************************
 ****    MEDIA QUERIES  *******
 *****************************/
+@media screen and (max-width: 2560px) {
+	.head-image{
+			margin-left: 1040px;
+	}
+	.description {
+   			font-size: 30px;
+	}
 
-@media (max-width: 1280px) {
+}
+
+    
+@media screen and (max-width: 1920px) {
+	.head-image{
+			margin-left: 720px;
+	}
+	.description {
+   			font-size: 25px;
+	}
+
+}
+
+
+@media screen and (max-width: 1680px) {
+	.head-image{
+			margin-left: 600px;
+	}
+	.description {
+   			font-size: 23px;
+	}
+
+
+}
+
+
+@media screen and (max-width: 1600px) {
+	.head-image{
+		margin-left: 550px;
+	}
+
+	.description {
+    font-size: 21px;
+	}
+
+}
+@media screen and (max-width: 1536px) {
+
+	.head-image{
+		margin-left: 510px;
+	} 
+
+}
+
+
+@media screen and (max-width: 1440px){
+	.head-image {
+		margin-left: 480px;
+	}
+
+	.description {
+    	font-size: 20px;
+	}
+
+}
+
+@media screen and (max-width: 1366px) {
+	.head-image{
+		margin-left:430px;
+	}
+
+}
+
+
+@media screen and (max-width: 1360px) {
+	.head-image{
+		margin-left:440px;
+	}
+
+}
+
+@media screen and (max-width: 1280px) {
 
 	.head-image {
-		margin-left: 400px;
+		margin-left: 470px !important;
 		height:180px;
 		width:180px;
 	}
@@ -132,17 +218,18 @@ table {
 	.head-image2{
 		display:none;
 	}
+
 }
 
-@media (max-width: 1024px) {
+@media screen and (min-width: 1024px) and (max-width: 1025px) {
     .head-image {
-    	margin-left:290px;
+    	margin-left:290px !important;
     	height:160px;
 		width:160px;
     }
 
     .description {
-    	font-size: 16px;
+    	font-size: 15px;
     }
 
     .hovertitle {
@@ -151,59 +238,62 @@ table {
     .head-image2{
 		display:none;
 	}
-}
 
-@media (max-width: 768px) {
-	.head-image {
-    	margin-left: 180px;
-    	height: 120px;
-    	margin-top: 330px;
-    	width: 120px;
-	}
-
-	.titles {
-		font-size:50px;
-	}
-
-	.description {
-		font-size:13px;
-	}
-	.head-image2{
-		display:none;
+	.clicktosee {
+		display:block;
 	}
 }
 
-@media (max-width: 768px) {
-	.about {
-    	height: 350px;
-    	width: 100%;
-	}
 
-	.titles {
-		margin-top:130px;
-	}
-	.head-image2{
-		display:none;
-	}
-}
 
-@media (max-width: 768px){
+
+@media screen and (max-width: 768px){
 	.head-image {
     	display:none;
   	}
   	.head-image2 {
   		display:block !important;
-  		width: 106.5%;
+  		width: 106.3%;
     	margin-left: -15px;
   	}
 
+  	.titles {
+		font-size:50px;
+	}
+
   	.description {
-    	font-size: 17px;
+		font-size:13px;
+	}
+}
+
+
+
+@media screen and (max-width: 425px){
+
+	.head-image2 {
+		width: 108.5%;
+	}
+
+	.titles {
+		font-size: 35px;
+	}
+
+	.description {
+    	font-size: 14px;
+	}
+
+	.last-title{
+		text-align: center;
+	}
+
+	.about {
+    	height: 350px;
+    	width: 100%;
 	}
 
 }
 
-@media (max-width: 414px){
+@media screen and (max-width: 414px){
 
 	.head-image2 {
 		width: 108.5%;
@@ -215,15 +305,22 @@ table {
 
 }
 
-@media (max-width: 375px){
+@media screen and (max-width: 375px){
+
+
 
 	.head-image2 {
     	width: 109.5%;
 	}
 
+	.titles {
+		font-size: 35px;
+	}
+
+
 }
 
-@media (max-width: 320px){
+@media screen and (max-width: 320px){
 
 	.head-image2 {
     	width: 111.5%;

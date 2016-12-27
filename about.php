@@ -40,6 +40,7 @@
 		<![endif]-->
 	</head>
 
+
 	<body class="hold-transition skin-blue sidebar-mini">
 		<div class="wrapper">
 
@@ -62,7 +63,7 @@
 
 				<!-- Main content -->
 				<section class="content">
-
+					<div>
 						<div id="header-image" class="col-md-12 col-xs-12">
 							<img src = "/ca-management/media/profile-pictures/no-image.png" class="head-image"/>
 							<img src = "/ca-management/media/logo.png" class="head-image2"/>
@@ -70,7 +71,9 @@
 
 						<div class="col-md-6 col-xs-12 about">
 								<h1 class="titles">VISION</h1>
+								<h4 class="clicktosee">CLICK TO SEE</h4>
 								<h1 class="hovertitle">VISION</h1>
+
 								<div class="description col-xs-12">
 								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque scelerisque vel est a malesuada. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus consequat dapibus turpis, blandit pretium diam sagittis id. Sed tristique in lorem pharetra scelerisque. Aliquam sagittis rutrum metus, id euismod nibh finibus vitae. Pellentesque dignissim faucibus felis. Pellentesque porta, neque at varius congue, felis tortor porttitor tellus, sit amet convallis nisl metus quis velit.</p>
 
@@ -83,6 +86,7 @@
 						<div class="col-md-6 col-xs-12 about">
 						
 							<h1 class="titles">MISSION</h1>
+							<h4 class="clicktosee">CLICK TO SEE</h4>
 							<h1 class="hovertitle">MISSION</h1>
 							<div class="description col-xs-12">
 								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque scelerisque vel est a malesuada. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus consequat dapibus turpis, blandit pretium diam sagittis id. Sed tristique in lorem pharetra scelerisque. Aliquam sagittis rutrum metus, id euismod nibh finibus vitae. Pellentesque dignissim faucibus felis. Pellentesque porta, neque at varius congue, felis tortor porttitor tellus, sit amet convallis nisl metus quis velit.</p>
@@ -97,6 +101,7 @@
 						<div class="col-md-6 col-xs-12 about">
 						
 							<h1 class="titles">HISTORY</h1>
+							<h4 class="clicktosee">CLICK TO SEE</h4>
 							<h1 class="hovertitle">HISTORY</h1>
 							<div class="description col-xs-12">
 								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque scelerisque vel est a malesuada. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus consequat dapibus turpis, blandit pretium diam sagittis id. Sed tristique in lorem pharetra scelerisque. Aliquam sagittis rutrum metus, id euismod nibh finibus vitae. Pellentesque dignissim faucibus felis. Pellentesque porta, neque at varius congue, felis tortor porttitor tellus, sit amet convallis nisl metus quis velit.</p>
@@ -108,7 +113,8 @@
 						
 						<div class="col-md-6 col-xs-12 about last-title">
 						
-							<h1 class="titles col-xs-12">PURPOSE</h1>
+							<h1 class="titles col-xs-12" style="text-align: center;">PURPOSE</h1>
+							<h4 class="clicktosee">CLICK TO SEE</h4>
 							<h1 class="hovertitle col-xs-12">PURPOSE</h1>
 							<div class="description col-xs-12">
 								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque scelerisque vel est a malesuada. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus consequat dapibus turpis, blandit pretium diam sagittis id. Sed tristique in lorem pharetra scelerisque. Aliquam sagittis rutrum metus, id euismod nibh finibus vitae. Pellentesque dignissim faucibus felis. Pellentesque porta, neque at varius congue, felis tortor porttitor tellus, sit amet convallis nisl metus quis velit.</p>
@@ -116,7 +122,7 @@
 							</div>
 
 						</div>
-
+					</div>
 						
 
 				</section>
