@@ -29,7 +29,6 @@
 		<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
 		<script src="http://code.jquery.com/ui/1.9.2/jquery-ui.js"></script>
-		<script type="text/javascript" src="js/about.js"></script>
 		
 
 		<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -63,68 +62,55 @@
 
 				<!-- Main content -->
 				<section class="content">
-					<div>
-						<div id="header-image" class="col-md-12 col-xs-12">
-							<img src = "/ca-management/media/profile-pictures/no-image.png" class="head-image"/>
-							<img src = "/ca-management/media/logo.png" class="head-image2"/>
-						</div>
+					
+					<div class="container">
 
-						<div class="col-md-6 col-xs-12 about">
-								<h1 class="titles">VISION</h1>
-								<h4 class="clicktosee">CLICK TO SEE</h4>
-								<h1 class="hovertitle">VISION</h1>
+						<div class="row">
 
-								<div class="description col-xs-12">
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque scelerisque vel est a malesuada. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus consequat dapibus turpis, blandit pretium diam sagittis id. Sed tristique in lorem pharetra scelerisque. Aliquam sagittis rutrum metus, id euismod nibh finibus vitae. Pellentesque dignissim faucibus felis. Pellentesque porta, neque at varius congue, felis tortor porttitor tellus, sit amet convallis nisl metus quis velit.</p>
-
-								</div>
-
-						</div>
-
-						
-
-						<div class="col-md-6 col-xs-12 about">
-						
-							<h1 class="titles">MISSION</h1>
-							<h4 class="clicktosee">CLICK TO SEE</h4>
-							<h1 class="hovertitle">MISSION</h1>
-							<div class="description col-xs-12">
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque scelerisque vel est a malesuada. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus consequat dapibus turpis, blandit pretium diam sagittis id. Sed tristique in lorem pharetra scelerisque. Aliquam sagittis rutrum metus, id euismod nibh finibus vitae. Pellentesque dignissim faucibus felis. Pellentesque porta, neque at varius congue, felis tortor porttitor tellus, sit amet convallis nisl metus quis velit.</p>
-
+							<div class = "col-md-12">
+							<center>
+								<img src = "media/profile-pictures/no-image.png" class="circle-logo"/>
+							</center>
 							</div>
 						
 						</div>
 
-						
-
-
-						<div class="col-md-6 col-xs-12 about">
-						
-							<h1 class="titles">HISTORY</h1>
-							<h4 class="clicktosee">CLICK TO SEE</h4>
-							<h1 class="hovertitle">HISTORY</h1>
-							<div class="description col-xs-12">
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque scelerisque vel est a malesuada. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus consequat dapibus turpis, blandit pretium diam sagittis id. Sed tristique in lorem pharetra scelerisque. Aliquam sagittis rutrum metus, id euismod nibh finibus vitae. Pellentesque dignissim faucibus felis. Pellentesque porta, neque at varius congue, felis tortor porttitor tellus, sit amet convallis nisl metus quis velit.</p>
-
+						<div class = "row" style="margin-bottom:25px;">
+							<div class = "col-md-6 col-xs-12 col-lg-6 col-sm-12">
+								<h2 class = "titleheading"> VISION </h2>
+								<hr class = "line-heading" />
+									<p class = "about-content col-sm-12">
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam nec tincidunt felis, sit amet luctus lorem. Proin condimentum mollis magna, sit amet pulvinar nisl luctus ut. Sed vehicula metus et velit viverra elementum. Sed elementum blandit metus, quis porttitor urna bibendum non. Maecenas imperdiet, enim id pulvinar venenatis, mauris ex hendrerit massa, a mattis dolor erat a diam. Suspendisse ut elit ac eros aliquam commodo. Praesent venenatis, ligula eget semper finibus, nunc tortor pharetra nisi, elementum ultricies lacus ante sed sem.
+									</p>
 							</div>
 
+							<div class = "col-md-6 col-xs-12 col-lg-6 col-sm-12">
+								<h2 class = "titleheading"> MISSION </h2>
+								<hr class = "line-heading" />
+									<p class = "about-content">
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam nec tincidunt felis, sit amet luctus lorem. Proin condimentum mollis magna, sit amet pulvinar nisl luctus ut. Sed vehicula metus et velit viverra elementum. Sed elementum blandit metus, quis porttitor urna bibendum non. Maecenas imperdiet, enim id pulvinar venenatis, mauris ex hendrerit massa, a mattis dolor erat a diam. Suspendisse ut elit ac eros aliquam commodo. Praesent venenatis, ligula eget semper finibus, nunc tortor pharetra nisi, elementum ultricies lacus ante sed sem.
+									</p>
+							</div>
 						</div>
 
-						
-						<div class="col-md-6 col-xs-12 about last-title">
-						
-							<h1 class="titles col-xs-12" style="text-align: center;">PURPOSE</h1>
-							<h4 class="clicktosee">CLICK TO SEE</h4>
-							<h1 class="hovertitle col-xs-12">PURPOSE</h1>
-							<div class="description col-xs-12">
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque scelerisque vel est a malesuada. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus consequat dapibus turpis, blandit pretium diam sagittis id. Sed tristique in lorem pharetra scelerisque. Aliquam sagittis rutrum metus, id euismod nibh finibus vitae. Pellentesque dignissim faucibus felis. Pellentesque porta, neque at varius congue, felis tortor porttitor tellus, sit amet convallis nisl metus quis velit.</p>
-
+						<div class = "row" style="margin-bottom:25px;">
+							<div class = "col-md-6">
+								<h2 class = "titleheading"> HISTORY </h2>
+								<hr class = "line-heading" />
+									<p class = "about-content">
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam nec tincidunt felis, sit amet luctus lorem. Proin condimentum mollis magna, sit amet pulvinar nisl luctus ut. Sed vehicula metus et velit viverra elementum. Sed elementum blandit metus, quis porttitor urna bibendum non. Maecenas imperdiet, enim id pulvinar venenatis, mauris ex hendrerit massa, a mattis dolor erat a diam. Suspendisse ut elit ac eros aliquam commodo. Praesent venenatis, ligula eget semper finibus, nunc tortor pharetra nisi, elementum ultricies lacus ante sed sem.
+									</p>
 							</div>
 
+							<div class = "col-md-6">
+								<h2 class = "titleheading"> PURPOSE </h2>
+								<hr class = "line-heading" />
+									<p class = "about-content">
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam nec tincidunt felis, sit amet luctus lorem. Proin condimentum mollis magna, sit amet pulvinar nisl luctus ut. Sed vehicula metus et velit viverra elementum. Sed elementum blandit metus, quis porttitor urna bibendum non. Maecenas imperdiet, enim id pulvinar venenatis, mauris ex hendrerit massa, a mattis dolor erat a diam. Suspendisse ut elit ac eros aliquam commodo. Praesent venenatis, ligula eget semper finibus, nunc tortor pharetra nisi, elementum ultricies lacus ante sed sem.
+									</p>
+							</div>
 						</div>
 					</div>
-						
-
 				</section>
 				<!-- /.content -->
 			</div>
