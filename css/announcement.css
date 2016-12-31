@@ -6,7 +6,7 @@
 	margin-left: 10px;
 }
 .announcement-container{
-	width: 50%;
+	width: 100%;
 	margin-top: 20px;
 	background-color: #fff;
 	box-shadow: 0 0 100px rgba(0, 0, 0, 0.1);
@@ -25,8 +25,18 @@
 	width: 80px;
 	height: 80px;
 }
+.heading-button{
+	margin-top: 10px;
+}
 .edit-button{
-	padding: 25px 0;
+	float: right;
+	margin-right: 10px;
+	padding: 6px 25px;
+}
+.delete-button{
+	float: right;
+	margin-right: 5px;
+	padding: 6px 18px;
 }
 .announcement-footer{
 	padding: 20px 20px;
