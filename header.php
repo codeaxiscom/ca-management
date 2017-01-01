@@ -78,7 +78,7 @@
 					</ul>
 				</li>
 				<!-- /.messages-menu -->
-
+				
 				<!-- Notifications Menu -->
 				<li class="dropdown notifications-menu">
 					<!-- Menu toggle button -->

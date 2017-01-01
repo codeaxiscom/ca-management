@@ -13,7 +13,7 @@
 		$success = false;
 
 		if($connection->query($sql)) {
-			$sucess = true;
+			$success = true;
 		}
 	}
 ?>
